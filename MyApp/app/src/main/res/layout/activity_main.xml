@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid2"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:textSize="50sp"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Fruits"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton2Apple"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3Grapes"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Grapes"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonorange"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="422dp"
+        android:layout_height="643dp"
+        app:srcCompat="@drawable/apple" />
+</LinearLayout>
